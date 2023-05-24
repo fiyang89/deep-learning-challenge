@@ -1,7 +1,14 @@
 # Deep Learning Challenge
 
+## Background
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you'll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+
+From Alphabet Soup's business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization.
+
 ## Report on Neural Network Model
 ### Overview of Analysis: Explain the purpose of this analysis.
+The purpose of this analysis is to predict how successful applicants will be if they are funded by Alphabet Soup.
+
 ### Results: Using bulleted lists and images to support your answers, address the following questions:
 - #### Data Preprocessing
       a. What variables are the targets for your model?
@@ -14,6 +21,7 @@
       c. What steps did you take in your attempts to increase model performance?
 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+The final optimization, Model 3, achieved an accuracy score of 76.83% using a sigmoid activation function.  Describe how you could use a different model to solve the same problem, and explain why you would use that model.
 
 - #### Model 1 resulted in an accuracy score of 72.66% with: 
       a. layer 1 = 80 neurons and layer 2 = 30 neurons
