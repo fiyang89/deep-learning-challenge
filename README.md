@@ -13,17 +13,35 @@ The purpose of this analysis is to predict how successful applicants will be if 
 
 ### Results: Using bulleted lists and images to support your answers, address the following questions:
 - #### Data Preprocessing
-      a. What variables are the targets for your model?
-      b. What variables are the features for your model?
+      a. What variables are the targets for your model? 
+            - For all Models 1-3, the target variable is "IS_SUCCESSFUL"
+      b. What variables are the features for your model? 
+            - For Model 1, the feature variables were: "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE",  
+              "ORGANIZATION", "STATUS", "INCOME_AMT", "SPECIAL_CONSIDERATIONS", "ASK_AMT" 
+            - For Model 2, the feature variables were: "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE",  
+              "ORGANIZATION", "STATUS", "SPECIAL_CONSIDERATIONS"
+            - For Model 3, the feature variables were: "NAME", "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE",  
+              "ORGANIZATION", "STATUS", "INCOME_AMT", "SPECIAL_CONSIDERATIONS", "ASK_AMT"
       c. What variables should be removed from the input data because they are neither targets nor features?
+            - For Model 1, the variables that were removed were: "EIN" and "NAME"
+            - For Model 2, the variables that were removed were: "EIN", "NAME", "INCOME_AMT", and "ASK_AMT"
+            - For Model 3, the variable that was removed was: "EIN"
 
 - #### Compiling, Training, and Evaluating the Model
       a. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+            - For Models 1-3, there were two layers and the activation function used was sigmoid.
+            - For Model 1, the number of neurons selected were 80 and 30
+            - For Model 2, the number of neurons selected were 60 and 20
+            - For Model 3, the number of neurons selected were 90 and 40
       b. Were you able to achieve the target model performance?
+            - For Model 3, the target model performance was achieved with an accuracy score of 76.83%
       c. What steps did you take in your attempts to increase model performance?
+            - After conducting the analysis for the baseline performance, Model 1. I manipulated the data by removing more 
+              variables at first. Then, decided to remove even less once realizing that the accuracy score for Model 2 was 
+              less accurate than Model 1.
 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-The final optimization, Model 3, achieved an accuracy score of 76.83% using a sigmoid activation function.  Describe how you could use a different model to solve the same problem, and explain why you would use that model.
+The final optimization, Model 3, achieved an accuracy score of 76.83% using a sigmoid activation function. Using a different model such as the tanh function would be more preferable than sigmoid because the output using tanh will allow for more accurate data points on the entirety of the matrix.
 
 - #### Model 1 resulted in an accuracy score of 72.66% with: [Starter Code](Starter_Code.ipynb)
       a. layer 1 = 80 neurons and layer 2 = 30 neurons
