@@ -5,6 +5,8 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 From Alphabet Soup's business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization.
 
+*(This project was created in Google Colab.)*
+
 ## Report on Neural Network Model
 ### Overview of Analysis: Explain the purpose of this analysis.
 The purpose of this analysis is to predict how successful applicants will be if they are funded by Alphabet Soup.
