@@ -5,9 +5,11 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 From Alphabet Soup's business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization.
 
+*(This project was created in Google Colab.)*
+
 ## Report on Neural Network Model
 ### Overview of Analysis: Explain the purpose of this analysis.
-The purpose of this analysis is to predict how successful applicants will be if they are funded by Alphabet Soup.
+The purpose of this analysis is to predict how successful applicants will be if they are funded by Alphabet Soup with a goal of above a 75% accuracy score.
 
 ### Results: Using bulleted lists and images to support your answers, address the following questions:
 - #### Data Preprocessing
@@ -23,7 +25,7 @@ The purpose of this analysis is to predict how successful applicants will be if 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 The final optimization, Model 3, achieved an accuracy score of 76.83% using a sigmoid activation function.  Describe how you could use a different model to solve the same problem, and explain why you would use that model.
 
-- #### Model 1 resulted in an accuracy score of 72.66% with: 
+- #### Model 1 resulted in an accuracy score of 72.66% with: [Starter Code](Starter_Code.ipynb)
       a. layer 1 = 80 neurons and layer 2 = 30 neurons
       b. epochs = 100
 
@@ -32,7 +34,7 @@ The final optimization, Model 3, achieved an accuracy score of 76.83% using a si
 
 ![image](https://github.com/fiyang89/deep-learning-challenge/assets/120594187/c2f5678f-886e-46a1-9602-ddb096668e2b)
 
-- #### Model 2 resulted in an accuracy score of 72.45% with: 
+- #### Model 2 resulted in an accuracy score of 72.45% with: [AlphabetSoupCharity_Optimization](AlphabetSoupCharity_Optimization.ipynb)
       a. layer 1 = 60 neurons and layer 2 = 20 neurons
       b. epochs = 100
 
@@ -41,7 +43,7 @@ The final optimization, Model 3, achieved an accuracy score of 76.83% using a si
 
 ![image](https://github.com/fiyang89/deep-learning-challenge/assets/120594187/7b094e2d-6b79-4676-a29f-83b4f265adb0)
 
-- #### Model 3 resulted in an accuracy score of 76.83% with: 
+- #### Model 3 resulted in an accuracy score of 76.83% with: [AlphabetSoupCharity_Optimization_2](AlphabetSoupCharity_Optimization_2.ipynb)
       a. layer 1 = 90 neurons and layer 2 = 40 neurons
       b. epochs = 20
 
