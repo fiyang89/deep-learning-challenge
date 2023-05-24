@@ -25,7 +25,7 @@ The purpose of this analysis is to predict how successful applicants will be if 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 The final optimization, Model 3, achieved an accuracy score of 76.83% using a sigmoid activation function.  Describe how you could use a different model to solve the same problem, and explain why you would use that model.
 
-- #### Model 1 resulted in an accuracy score of 72.66% with: [Starter Code](root/Starter_Code.ipynb)
+- #### Model 1 resulted in an accuracy score of 72.66% with: [Starter Code](Starter_Code.ipynb)
       a. layer 1 = 80 neurons and layer 2 = 30 neurons
       b. epochs = 100
 
