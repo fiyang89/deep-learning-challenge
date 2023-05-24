@@ -9,7 +9,7 @@ From Alphabet Soup's business team, you have received a CSV containing more than
 
 ## Report on Neural Network Model
 ### Overview of Analysis: Explain the purpose of this analysis.
-The purpose of this analysis is to predict how successful applicants will be if they are funded by Alphabet Soup.
+The purpose of this analysis is to predict how successful applicants will be if they are funded by Alphabet Soup with a goal of above a 75% accuracy score.
 
 ### Results: Using bulleted lists and images to support your answers, address the following questions:
 - #### Data Preprocessing
